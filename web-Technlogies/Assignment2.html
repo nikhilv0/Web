@@ -1,59 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
 </head>
+
 <body>
     <div>
-        <label for="1">Name</label>
-        <span style="color: red;">*</span>
-        <span>:</span>
-        <input type="text" id="1" required>
-    </div>
-    
-    <br><label for="id">password </label>
-    <span style="color: red;">* </span>
-    <span>:</span>
-    <input type="password" id="2" required> 
-    </div>
-    <div>
-        <br><label for="id">Conform password </label>
-    <span style="color: red;">* </span>
-    <span>:</span>
-    <input type="password" id="2" required> 
-    </div>
-   
-    <div>
-        <br><label for="">Button</label>
-        <span>:</span>
-        <input type="button" id="4" required>
-    </div>
-    <div>
-        <br><label for="id">Email</label>
-        <span style="color: red;">*</span>
-        <span>:</span>
-        <input type="email" id="5" required>
-    </div>
-    
-    <div>
-        <br><label for="id">Date Time</label>
-        <span>:</span>
-        <input type="datetime-local" id="6" required>
-    </div>
-    <div>
-        <br><label for="id">Phone</label>
-        <span style="color: red;">*</span>
-        <span>:</span>
-        <input type="number" id="6" required>
-    </div>
-    <div>
-        <br><label for="teamId">Teams</label>
-        <span>:</span><br>
-        <span>RCB:</span><input type="checkbox" id="teamId" required><br>
-        <span>MI:</span><input type="checkbox"  required><br>
-        <span>CSK:</span><input type="checkbox" id="">
+        <form name="Form1" id="Form1">
+            <div>
+                <label for="name1">Name</label>
+                <span style="color: red;">*</span>
+                <span>:</span>
+                <input type="text" id="name1" required>
+            </div>
+
+            <br><label for="id">password </label>
+            <span style="color: red;">* </span>
+            <span>:</span>
+            <input type="password" placeholder="password" id="2" required>
+
+            <div>
+                <br><label for="id2">Conform password </label>
+                <span style="color: red;">* </span>
+                <span>:</span>
+                <input type="password" name="password" id="id2" required>
+            </div>
+
+            <div>
+                <br><label for="">Button</label>
+                <span>:</span>
+                <input type="button" id="4" required>
+            </div>
+            <div>
+                <br><label for="id">Email</label>
+                <span style="color: red;">*</span>
+                <span>:</span>
+                <input type="email" id="5" required>
+            </div>
+
+            <div>
+                <br><label for="id">Date Time</label>
+                <span>:</span>
+                <input type="datetime-local" id="6" required>
+            </div>
+            <div>
+                <br><label for="id">Phone</label>
+                <span style="color: red;">*</span>
+                <span>:</span>
+                <input type="number" id="6" required>
+            </div>
+            <div>
+                <br><label for="teamId">Teams</label>
+                <span>:</span><br>
+                <span>RCB:</span><input type="checkbox" id="teamId" required><br>
+                <span>MI:</span><input type="checkbox" required><br>
+                <span>CSK:</span><input type="checkbox" id="">
+            </div>
+        </form>
     </div>
 </body>
+
 </html>
