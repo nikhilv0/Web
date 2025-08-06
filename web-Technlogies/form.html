@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <script src="form.js"></script>
+    <style>
+       
+        form{
+            text-align: center;
+            border: 3px solid black;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body >
+    <form name="formName" onsubmit="return submitForm()">
+        <label for="nameID">Name</label>
+        <span style="color: red;">*</span>
+        <span>:</span>
+        <input type="text" name="nameName" id="nameID" placeholder="Enter your Name" required>
+        <br>
+        <label for="phoneID">Phone Number</label>
+        <span style="color: red;">*</span>
+        <span>:</span>
+        <input type="number" name="PhoneName" id="phoneID" placeholder="Phone Number" required>
+        <br>
+        <label for="AgeID">Age</label>
+        <span style="color: red;">*</span>
+        <span>:</span>
+        <input type="number" name="AgeName" id="AgeID" placeholder="Age" required>
+        <br>
+        <label for="passwordID">Password</label>
+        <span style="color: red;">*</span>
+        <span>:</span>
+        <input type="password" name="passwordName" id="Password" placeholder="Password" required>
+        <br>
+        <label for="emailID">E-mail</label>
+        <span style="color: red;">*</span>
+        <span>:</span>
+        <input type="email" name="emailName" id="emailID" placeholder="Email" required>
+        <br>
+        <label for="selectID">Country</label>
+        <span style="color: red;">*</span>
+        <span>:</span>
+        <select name="selectNmae" id="selectID">
+            <option>Select Country</option>
+            <option>India</option>
+            <option>Aus</option>
+            <option>South Africa</option>
+             <option>Eng</option>
+            </select>
+        <br>
+        <label for="radioId">gender</label>
+        <span style="color: red;">*</span>
+        <span>:</span>
+        <br>
+        <span>male</span>
+        <input type="radio" name="radioName" id="radioID" required>
+        <br>
+        <span>female</span>
+        <input type="radio" name="radioName" id="radioID" required>
+        <br>
+        <button type="submit" value="submit">submit</button>
+        <button type="reset" value="clear">clear</button>
+
+    </form>
+</body>
+
+</html>

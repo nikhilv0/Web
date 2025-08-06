@@ -1,0 +1,35 @@
+.navClass{
+    background-color: rgb(122, 205, 205);
+    color: aliceblue;
+    border-radius: 4px;
+    display: flex;
+    
+}
+.navClass ul{
+    overflow: auto;
+}
+.navClass ul li {
+    float: left;
+    /* background-color: rgb(125, 164, 223); */
+    overflow: auto;
+    padding:10px;
+    list-style: none;
+    font-size: larger;
+}
+.navClass ul li{
+    text-align: center;
+}
+.navClass ul li a{
+    text-decoration: none;
+
+}
+.navClass ul li a:hover{
+    color: azure;
+}
+#searchId{
+   float: left;
+   margin-left: 170px;
+    
+}
+
+

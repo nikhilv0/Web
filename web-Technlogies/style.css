@@ -1,0 +1,51 @@
+ul{
+    /* list-style: none; */
+    background-color: rgb(224, 10, 10);
+    padding: 10px;
+    
+}
+ul li{
+    display: inline-block;
+    color: rgb(240, 240, 235);
+    padding-inline: 80px;
+}
+body{
+    margin: 0%;
+
+}
+ul :hover{
+    color: rgb(24, 18, 18);
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+.dropdown{
+    position: relative;
+
+}
+
+.dropdown-content{
+    position: absolute;
+    display: none;
+    background-color: rgb(236, 244, 236);
+    padding: 12px 16px;
+    color: rgb(184, 23, 23);
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.tb1{
+    opacity: 1px;
+
+}
+.tb2{
+    opacity: 0.7px;
+}
+.tb3{
+    opacity: 0.4px;
+}
+.tb4{
+    opacity: 0.2px;
+}
