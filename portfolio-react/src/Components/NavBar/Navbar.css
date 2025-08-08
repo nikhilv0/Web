@@ -5,9 +5,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5px 170px;
-    padding: 15px 0;
+    margin: 20px auto;
+    padding: 8px 40px;
+    max-width: 1200px;
+    border-radius: 50px;
+    background: linear-gradient(rgba(18, 65, 193, 0.15), rgba(10, 57, 175, 0.15), rgba(10, 37, 84, 0.15));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 2px 2px 2px rgba(60, 61, 163, 0.3);
 }
+
 
 .nav-menu {
     display: flex;
@@ -20,7 +27,7 @@
 .nav-connect {
     padding: 18px 40px;
     border-radius: 50px;
-    background: linear-gradient(to left, rgb(5, 15, 43), rgb(12, 28, 61), rgb(9, 26, 56));
+    background: linear-gradient(to left, rgb(28, 45, 96), rgb(13, 32, 68), rgb(18, 42, 85));
     font-size: 18px;
     cursor: pointer;
     transition: 0.5s;

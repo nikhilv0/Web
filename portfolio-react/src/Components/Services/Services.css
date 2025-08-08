@@ -1,0 +1,63 @@
+
+  .services {
+    padding: 60px 40px;
+  }
+  
+  .services-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .services-subtitle {
+    font-size: 18px;
+    color: rgb(180, 180, 255);
+    margin-top: 10px;
+  }
+  
+  .services-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 25px;
+    padding: 10px 0;
+    scroll-behavior: smooth;
+  }
+  
+  .services-format {
+    flex: 0 0 300px;
+    height: 250px;
+    background:linear-gradient( rgba(85, 92, 185, 0.05), rgba(0, 0, 51, 0.05), rgba(5, 5, 128, 0.05));
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .services-format:hover {
+    background:linear-gradient( rgb(10, 10, 39), rgb(0, 0, 51), rgb(5, 5, 128));
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .services-format h3 {
+    font-size: 20px;
+    color: #8be9fd;
+  }
+  
+  .services-format h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: white;
+  }
+  
+  .services-format p {
+    font-size: 15px;
+    color: #ccc;
+  }
+  
+  .services-readmore p {
+    margin-top: 20px;
+    color: #8be9fd;
+    font-weight: bold;
+  }
+  

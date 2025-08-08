@@ -6,8 +6,8 @@ const Hero = () => {
     return (
        <div className="hero">
             <img src={profile} alt="My profile" />
-            <h1><span>I'm Nikhil V</span>, Java Full Stack Trainee.</h1>
-            <p>Welcome to my portfolio! I am a passionate Java Full Stack Developer with a keen interest in creating dynamic and responsive web applications. Explore my work and connect with me!</p>
+            <h1><span>I'm Nikhil V</span>, Java Full Stack Developer.</h1>
+            <p>I am a passionate Java Full Stack Developer with a keen interest in creating dynamic and responsive web applications. Explore my work and connect with me!</p>
             <div className="hero-action">
                 <div className="hero-connect">Connect With Me</div>
                 <div className="hero-resume">My resume</div>
