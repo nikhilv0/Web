@@ -5,6 +5,8 @@ import About from './Components/About/About';
 import Services from './Components/Services/Services';
 import SocialIcons from './Components/SocialIcons/SocialIcons';
 import Projects from './Components/Projects/Projects';
+import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 const App = () => {
   console.log("App component loaded");
@@ -16,6 +18,8 @@ const App = () => {
        <About />
       <Services />
       <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 };

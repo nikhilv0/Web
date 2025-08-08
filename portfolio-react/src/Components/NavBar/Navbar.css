@@ -15,7 +15,6 @@
     box-shadow: 2px 2px 2px rgba(60, 61, 163, 0.3);
 }
 
-
 .nav-menu {
     display: flex;
     align-items: center;
@@ -58,13 +57,43 @@
 .nav-menu li {
     cursor: pointer;
     transition: 0.3s;
+    position: relative;
+    padding-bottom: 5px;
 }
 .nav-menu li:hover {
     color: #f0f0f0;
     transform: scale(1.05);
 }
 
+.nav-menu li.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px; /* underline thickness */
+    width: 100%;
+    background-color: #1c2f84; /* underline color */
+    border-radius: 2px; /* rounded edges */
+    transition: all 0.3s ease-in-out;
+}
 
+.nav-menu li.active::after,
+.nav-menu li:hover::after {
+  transform: scaleX(1);
+}
+
+.nav-menu li a{
+    text-decoration: none; /* remove underline */
+    color: inherit;        /* use li's text color */
+    display: block;        /* so the whole clickable area is padded */
+  }
+
+  .nav-connect a{
+    text-decoration: none; /* remove underline */
+    color: inherit;        /* use li's text color */
+    display: block; 
+  }
+  
 .hamburger {
     display: none;
     font-size: 30px;

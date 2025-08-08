@@ -6,14 +6,14 @@ const projects = [
     title: 'Blood Bank Web Application',
     type: 'Full Stack (Java | JSP | Servlets | MySQL)',
     desc: 'Developed a dynamic web application with user & donor registration, blood request handling, OTP-based email verification using Jakarta Mail API, and CRUD operations using JDBC and MySQL.',
-    img: '/images/bloodbank.png',
+    img: '/images/bloodbankApp.png',
     link: '#'
   },
   {
     title: 'BloodBank Management Website',
     type: 'Frontend (HTML/CSS/JavaScript)',
     desc: 'Designed a static website for managing donor and recipient information with user-friendly interfaces for patients, doctors, and administrators.',
-    img: '/images/bloodbank-static.png',
+    img: '/images/bloodbankStatic.png',
     link: '#'
   },
   {
@@ -34,7 +34,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className="projects-section">
+    <section id='projects' className="projects-section">
       <h2>My Projects</h2>
       <p>Here are some of the projects I have worked on, showcasing my development skills.</p>
       <div className="projects-container">
