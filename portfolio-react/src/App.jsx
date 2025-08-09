@@ -7,6 +7,8 @@ import SocialIcons from './Components/SocialIcons/SocialIcons';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import Skills from './Components/Skills/Skills';
+import Tools from './Components/Tools/Tools';
 
 const App = () => {
   console.log("App component loaded");
@@ -15,7 +17,9 @@ const App = () => {
       <Navbar />
       <Hero />
       <SocialIcons /> 
-       <About />
+      <About />
+      <Skills />
+      <Tools />
       <Services />
       <Projects />
       <Contact />

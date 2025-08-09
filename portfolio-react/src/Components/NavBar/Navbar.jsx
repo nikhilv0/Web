@@ -27,6 +27,9 @@ const Navbar = () => {
         <li className={menu === "about" ? "active" : ""}>
           <a href="#about" onClick={() => setMenu("about")}>About Me</a>
         </li>
+        <li className={menu === "skillTech" ? "active" : ""}>
+          <a href="#skillTech" onClick={() => setMenu("skillTech")}>SkillTech</a>
+        </li>
         <li className={menu === "services" ? "active" : ""}>
           <a href="#services" onClick={() => setMenu("services")}>Services</a>
         </li>

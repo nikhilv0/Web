@@ -1,0 +1,48 @@
+.skills-section {
+  background: rgb(3, 3, 34);
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  padding: 3rem;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.skills-section p {
+  opacity: 0.8;
+  margin-bottom: 2rem;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.skill-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.skill-item span {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.skill-item:hover img {
+  transform: scale(1.1);
+}
